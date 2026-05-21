@@ -1,0 +1,25 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "一个简洁优雅的番茄钟 macOS 桌面应用",
+  "homepage": "https://github.com/chensiyuan/First_cc",
+  "license": "MIT",
+  "author": "chensiyuan",
+  "scripts": {
+    "build": "swift build",
+    "install": "cp .build/debug/Pomodoro Pomodoro.app/Contents/MacOS/Pomodoro",
+    "start": "open Pomodoro.app",
+    "clean": "swift package clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chensiyuan/First_cc.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "macos",
+    "swift",
+    "swiftui",
+    "productivity"
+  ]
+}
